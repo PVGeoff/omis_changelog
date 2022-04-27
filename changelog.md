@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v-1.2.2] - 2022-04-27
+
+Consolidating project / milestone editing
+
+### Changed
+
+- Admin table striped
+- Removed edit button from project view
+- Project name column in project view now clickable. Goes to new project detail pages
+- Milestones, completed milestones, and edit project all moved to Project details page
+- Moved the ability to change project status into project details page
+
+### Added
+
+- Project detail page
+- Milestone overview stats to project details page
+- Success message when updating project
+- Autosave when altering milestones
+
+### Fixed
+
 ## [v-1.2.1] - 2022-04-25
 
 Timesheet redesign, logo change, and framework for theming.
