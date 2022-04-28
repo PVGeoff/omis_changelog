@@ -10,7 +10,7 @@ User Directory
 
 ### Added
 
-- A direcotry for everyone signed up through OMiS accessible through the navigation bar
+- A directory for everyone signed up through OMiS accessible through the navigation bar
 
 ### Fixed
 
@@ -32,8 +32,6 @@ Consolidating project / milestone editing
 - Milestone overview stats to project details page
 - Success message when updating project
 - Autosave when altering milestones
-
-##
 
 ### Fixed
 
