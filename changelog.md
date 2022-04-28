@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v-1.2.3] - 2022-04-28
+
+User Directory
+
+### Changed
+
+### Added
+
+- A direcotry for everyone signed up through OMiS accessible through the navigation bar
+
+### Fixed
+
 ## [v-1.2.2] - 2022-04-27
 
 Consolidating project / milestone editing
