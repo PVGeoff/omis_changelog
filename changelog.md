@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v-1.2.6 - 2022-05-09]
+
+Project Breakdown and Fixes
+
+### Changed
+
+### Added
+
+- Project breakdown tab to track hours spent on each milestone
+- Graph to show top 5 Milestones by hour
+- Various additional Themes & Logos
+
+### Fixed
+
+- Fixed a bug where users could submit a time without assigning a milestone when creating a new timesheet
+
+## [v-1.2.5 - 2022-05-09]
+
+User themes version-1 and excel exports
+
+### Changed
+
+### Added
+
+- Themes added under the account page. To activate a theme, click one of the available themes and hit save.
+- Backend support for easily adding more themes
+- Export table to excel button. Currently only supports admin timesheet selection.
+
+### Fixed
+
+- Milestone stats should no longer show as NaN%
+- Fixed Issue where completed milestones wouldn't move to completed section
+- Code cleanup for themes.
+
 ## [v-1.2.4 - 2022-04-29]
 
 User themes version-1 and excel exports
