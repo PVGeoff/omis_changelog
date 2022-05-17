@@ -15,11 +15,12 @@ Multiple Users Per Milestone
 
 - Can now assign multiple users per milestone on the project details page
 - Added functionality for displaying all users for the completed milestones page
+- New Theme & Icon
 - Fish (go find it)
 
 ### Fixed
 
-- Fixed a bug where JWT token expiration would not automatically return a user to the login page
+- Fixed a bug where token expiration would not automatically return a user to the login page
 
 ## [v-1.2.6 - 2022-05-09]
 
