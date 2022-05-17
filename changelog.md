@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v-1.3.0 - 2022-05-17]
+
+Multiple Users Per Milestone
+
+### Changed
+
+- Temporarily removed users assigned to milestone on project breakdown page
+- Temporarily removed Donut graphs on project breakdown page
+
+### Added
+
+- Can now assign multiple users per milestone on the project details page
+- Added functionality for displaying all users for the completed milestones page
+- Fish (go find it)
+
+### Fixed
+
+- Fixed a bug where JWT token expiration would not automatically return a user to the login page
+
 ## [v-1.2.6 - 2022-05-09]
 
 Project Breakdown and Fixes
@@ -12,7 +31,7 @@ Project Breakdown and Fixes
 
 - Project breakdown tab to track hours spent on each milestone
 - Graph to show top 5 Milestones by hour
-- Various additional Themes & Logos
+- Various additional themes & Logos
 
 ### Fixed
 
