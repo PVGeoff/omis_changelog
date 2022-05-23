@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v-1.3.2 - 2022-05-17]
+
+Client directory & some nice-to-haves
+
+### Changed
+
+- Fields should clear after a client is succesfully created and will no longer reroute
+
+### Added
+
+- Success message when adding a new client
+- Autosave timesheet [^1]
+- Client directory
+- Edit existing clients with autosave feature [^2]
+
+### Fixed
+
+- CLients not saving properly upon creation
+
+[^1] only when editing an existing sheet the autosave will trigger when adding a new milestone
+[^2] Editing can be done by clicking on any client within the client directory. Once you click to another client, the previous one will be automatically saved.
+
+## [v-1.3.1 - 2022-05-17]
+
+Milestone query optimization
+
+### Changed
+
+- Only the milestone and field you are currently editing will be altered in the database [^1]
+
+### Added
+
+### Fixed
+
+[^1] Previously altering a single milestone would force delete and recreate all milestones associated with the project
+
 ## [v-1.3.0 - 2022-05-17]
 
 Multiple Users Per Milestone
