@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v-1.4.0 - 2022-05-17]
+
+Infrastructure for user groups, total hours for days & improvements
+
+### Changed
+
+- Delete functionality now works off of milestone ID rather than milestone name.
+- Users flagged as "interns" should no longer show up on timesheet excel reports for admins.
+- When adding a new milestone to a project that has the status "not started" will automatically convert it to "in progress"
+- When completing all milestones on a project the status will automatically be changed to complete
+
+### Added
+
+- Total hours for the current day selected will show above the tab switcher component
+- The ability to assign multiple roles to users as well as custom groups if user is classified as "admin"
+
+### Fixed
+
+- Milestone duplication
+
 ## [v-1.3.2 - 2022-05-17]
 
 Client directory & some nice-to-haves
